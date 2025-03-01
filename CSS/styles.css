@@ -1,0 +1,126 @@
+
+    body {
+        background-color: #e2dec9;
+    }
+
+    * {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+    .head {
+        font-size: 25px;
+        display: block;
+        text-align: center;
+    }
+
+    .Latest {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        }
+
+    .Line{
+        width: 10%;
+        background-color: black;
+        height: 3px;
+    }
+
+
+    .container {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .button {
+        width: 200px;
+        height: 50px;
+        border: 3px solid black;
+        background-color: paleturquoise;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .MainPost{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        }
+
+    a.Nav {
+        color: black;
+        text-decoration: none;
+        font-size: 35px;
+        font-weight: bold;
+        text-align: left;
+        display: inline-block;
+        transition: 0.2s;
+    }
+
+    a.Nav:hover {
+        color: #1B5299;
+        font-size: 35px;
+        font-weight: bold;
+        transform: scale(1.05);
+        transform-origin: top;
+    }
+
+    a.Nav:focus {
+        color: #1B5299;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .Post {
+        width: 800px;
+        height: 500px;
+        border-radius: 10px;
+        background-color: paleturquoise;
+        border: 3px solid black;
+        box-sizing: border-box;
+        display: wrap;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-right: 25px;
+        transition: 0.3s;
+    }
+
+    div.Post:hover {
+        transform: scale(1.05);
+        transform-origin: top;
+    }
+
+    .Post_Title {
+        background-color: rgb(200, 245, 245);
+        border-right: solid 3px black;
+        border-left: solid 3px black;
+        border-bottom: 3px solid black;
+        display: flex;
+        border-radius: 10px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .Post_Image {
+        border-right: solid 3px black;
+        border-left: solid 3px black;
+        border-bottom: solid 3px black;
+        display: flex;
+        width: 450px;
+        height: 450px;
+        margin-left: 170px;
+    }
+
+    a.Blog_All {
+        text-decoration: none;
+        color: black;
+        transition: all .2s ease-in-out;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
